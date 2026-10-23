@@ -6,10 +6,15 @@ const people = ref([
 
 const newName = ref()
 const newAge = ref()
+
+function addPerson(){
+
+}
 </script>
 
 <template>
   <form></form>
 <input v-model.number="newAge">
-<input v-model="newName" required placeholder="hoi">
+<input v-model="newName">
+<button>toevoegen</button>
 </template>
