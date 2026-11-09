@@ -1,4 +1,5 @@
 <script setup>
+import { ref, computed } from "vue";
 const people = ref([
   { name: 'Jan', age: 12 },
    { name: 'Piet', age: 20 }
